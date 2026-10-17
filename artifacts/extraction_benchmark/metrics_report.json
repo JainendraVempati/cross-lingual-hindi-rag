@@ -1,0 +1,66 @@
+{
+  "pdfium": {
+    "cer": 9.602150537634408,
+    "wer": 9.09375,
+    "exact_matches": 16,
+    "compact_matches": 21,
+    "total_checks": 23,
+    "critical_matches": 18,
+    "critical_total": 18,
+    "pages": [
+      {
+        "page": 5,
+        "exact": 0,
+        "compact": 3,
+        "total": 5,
+        "duplicate_indicators": 1
+      },
+      {
+        "page": 17,
+        "exact": 9,
+        "compact": 9,
+        "total": 9,
+        "duplicate_indicators": 1
+      },
+      {
+        "page": 22,
+        "exact": 7,
+        "compact": 9,
+        "total": 9,
+        "duplicate_indicators": 1
+      }
+    ]
+  },
+  "ocr": {
+    "cer": 8.476702508960573,
+    "wer": 8.958333333333334,
+    "exact_matches": 7,
+    "compact_matches": 7,
+    "total_checks": 23,
+    "critical_matches": 3,
+    "critical_total": 18,
+    "pages": [
+      {
+        "page": 5,
+        "exact": 4,
+        "compact": 4,
+        "total": 5,
+        "duplicate_indicators": 1
+      },
+      {
+        "page": 17,
+        "exact": 1,
+        "compact": 1,
+        "total": 9,
+        "duplicate_indicators": 1
+      },
+      {
+        "page": 22,
+        "exact": 2,
+        "compact": 2,
+        "total": 9,
+        "duplicate_indicators": 1
+      }
+    ]
+  }
+}

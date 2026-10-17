@@ -1,0 +1,24 @@
+{
+  "warning": "Aggressive repair is experimental. It may merge legitimate word boundaries and must not be used in production without validation.",
+  "original": {
+    "cer": 0.0964,
+    "wer": 0.7909,
+    "character_errors": 108,
+    "word_errors": 174,
+    "exact_match": false
+  },
+  "whitespace_normalized": {
+    "cer": 0.0964,
+    "wer": 0.7909,
+    "character_errors": 108,
+    "word_errors": 174,
+    "exact_match": false
+  },
+  "aggressive_join": {
+    "cer": 0.1848,
+    "wer": 0.9727,
+    "character_errors": 207,
+    "word_errors": 214,
+    "exact_match": false
+  }
+}

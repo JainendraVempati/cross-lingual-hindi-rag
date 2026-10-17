@@ -1,0 +1,1289 @@
+{
+  "source_pdf": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+  "page_count": 22,
+  "table_count": 6,
+  "primary_extractor": "pdfium",
+  "ocr_fallback": "tesseract",
+  "tables": [
+    {
+      "table_id": "table_001",
+      "page": 9,
+      "table_on_page": 1,
+      "bbox_pdf_points": [
+        51.42186285392229,
+        215.7461783465755,
+        544.207032121706,
+        391.8669947322082
+      ],
+      "row_count": 6,
+      "column_counts": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            {
+              "column": 0,
+              "text": "मि साइल",
+              "raw_text": "मि सा इल",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "प्रका र (भूमि का )",
+              "raw_text": "प्रका र (भूमि का )",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "ना म काअर्थ",
+              "raw_text": "ना म का अर्थ",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            {
+              "column": 0,
+              "text": "पृथ्वी",
+              "raw_text": "पृथ्वी",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "सतह-से-सतह, कम दूरी",
+              "raw_text": "सतह-से-सतह, कम दूरी",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "\"धरती \"",
+              "raw_text": "\"धरती \"",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            {
+              "column": 0,
+              "text": "अग्नि",
+              "raw_text": "अग्नि",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "सतह-से-सतह, अधि क दूरी",
+              "raw_text": "सतह-से-सतह, अधि क दूरी",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "\"आग\"",
+              "raw_text": "\"आग\"",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            {
+              "column": 0,
+              "text": "त्रिशूल",
+              "raw_text": "त्रि शूल",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "कम दूरी की सतह-से-हवा",
+              "raw_text": "कम दूरी की सतह-से-हवा",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "\"त्रि शूल\"",
+              "raw_text": "\"त्रि शूल\"",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            {
+              "column": 0,
+              "text": "आकाश",
+              "raw_text": "आका श",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "मध्यम दूरी की सतह-से-हवा",
+              "raw_text": "मध्यम दूरी की सतह-से-हवा",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "\"आसमा न\"",
+              "raw_text": "\"आसमा न\"",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "column": 0,
+              "text": "नाग",
+              "raw_text": "ना ग",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "टैंक-रो धी नि र्देशि त मि साइल",
+              "raw_text": "टैंक-रो धी नि र्देशि त मि सा इल",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "\"ना ग/को बरा \"",
+              "raw_text": "\"ना ग/को बरा \"",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "table_002",
+      "page": 12,
+      "table_on_page": 1,
+      "bbox_pdf_points": [
+        51.42186285392229,
+        148.24800357499896,
+        544.207032121706,
+        324.36881996063164
+      ],
+      "row_count": 6,
+      "column_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            {
+              "column": 0,
+              "text": "व्यक्ति",
+              "raw_text": "व्यक्ति",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "कला म के जी वन में भूमि का",
+              "raw_text": "कला म के जी वन में भूमि का",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            {
+              "column": 0,
+              "text": "जैनुलाब्दीन (पि ता )",
+              "raw_text": "जैनुला ब्दी न (पि ता )",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "कर्तव्य, आस्था , ईमा नदा रीऔर सा दगी से जी ना सि खा या ।",
+              "raw_text": "कर्तव्य, आस्था , ईमा नदा री और सा दगी से जी ना सि खा या ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            {
+              "column": 0,
+              "text": "रेवरे . आयडुरई सोलोमन",
+              "raw_text": "रेवरे . आयडुरई सो लो मन",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "स्कूल-गुरु जि न्हों नेऊँचा लक्ष्य रखनाऔर सफलता कीअपेक्षा करना सि खा या ।",
+              "raw_text": "स्कूल-गुरु जि न्हों ने ऊँचा लक्ष्य रखना और सफलता की अपेक्षा करना सि खा या ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            {
+              "column": 0,
+              "text": "वि क्रम सा रा भाई",
+              "raw_text": "वि क्रम सा रा भा ई",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रत केअंतरि क्ष प्रया स के जनक; कला म कोआरंभरं में वि श्वा स और ज़ि म्मेदा री दी ।",
+              "raw_text": "भा रत के अंतरि क्ष प्रया स के जनक; कला म को आरंभरं में वि श्वा स और ज़ि म्मेदा री दी ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            {
+              "column": 0,
+              "text": "सतीश धवन",
+              "raw_text": "सती श धवन",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "इसरो प्रमुख जि न्हों ने वि फलताआत्मसा त कीऔर श्रेय बाँ टा — कला म का नेतृत्व-आदर्श।",
+              "raw_text": "इसरो प्रमुख जि न्हों ने वि फलता आत्मसा त की और श्रेय बाँ टा — कला म का नेतृत्व-आदर्श।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "column": 0,
+              "text": "ब्रह्म प्रकाश",
+              "raw_text": "ब्रह्म प्रका श",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "वरि ष्ठ वैज्ञा नि क और प्रक्षेपण-या न वर्षों में स्थि र मा र्गदर्शक।",
+              "raw_text": "वरि ष्ठ वैज्ञा नि क और प्रक्षेपण-या न वर्षों में स्थि र मा र्गदर्शक।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "table_003",
+      "page": 16,
+      "table_on_page": 1,
+      "bbox_pdf_points": [
+        51.42186285392229,
+        128.7486825794707,
+        544.207032121706,
+        304.86949896510345
+      ],
+      "row_count": 6,
+      "column_counts": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            {
+              "column": 0,
+              "text": "वर्ष",
+              "raw_text": "वर्ष",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "सम्मा न",
+              "raw_text": "सम्मा न",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "टि प्पणी",
+              "raw_text": "टि प्पणी",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1981",
+              "raw_text": "1981",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "पद्म भूषण",
+              "raw_text": "पद्म भूषण",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "वि ज्ञा न एवं इंजी नि यरिं ग में यो गदा न के लिए।",
+              "raw_text": "वि ज्ञा न एवं इंजी नि यरिं ग में यो गदा न के लि ए।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1990",
+              "raw_text": "1990",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "पद्म विभूषण",
+              "raw_text": "पद्म वि भूषण",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "भा रत का दूसरा सर्वो च्च ना गरि क पुरस्का र।",
+              "raw_text": "भा रत का दूसरा सर्वो च्च ना गरि क पुरस्का र।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1997",
+              "raw_text": "1997",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भारत रत्न",
+              "raw_text": "भा रत रत्न",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "भा रत का सर्वो च्च ना गरि क सम्मा न।",
+              "raw_text": "भा रत का सर्वो च्च ना गरि क सम्मा न।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1997",
+              "raw_text": "1997",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "रा ष्ट्री य एकता के लिए इंदिरा गांधी पुरस्का र",
+              "raw_text": "रा ष्ट्री य एकता के लि ए इंदि रा गां धी पुरस्का र",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "—",
+              "raw_text": "—",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "column": 0,
+              "text": "वि भि न्न",
+              "raw_text": "वि भि न्न",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "मा नद डॉ क्टरेटरे",
+              "raw_text": "मा नद डॉ क्टरेटरे",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 2,
+              "text": "वि श्व भर के चा ली स सेअधि क वि श्ववि द्या लयों से।",
+              "raw_text": "वि श्व भर के चा ली स से अधि क वि श्ववि द्या लयों से।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "table_004",
+      "page": 17,
+      "table_on_page": 1,
+      "bbox_pdf_points": [
+        51.43748748277124,
+        100.7488616341301,
+        544.1966157024733,
+        511.11411372357577
+      ],
+      "row_count": 14,
+      "column_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            {
+              "column": 0,
+              "text": "वर्ष",
+              "raw_text": "वर्ष",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "पड़ा व",
+              "raw_text": "पड़ा व",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1931",
+              "raw_text": "1931",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "15 अक्टूबर को तमिलनाडु के रामेश्वरम में जन्म।",
+              "raw_text": "15 अक्टूबर को तमि लना डु के रा मेश्वरम में जन्म।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1950 का दशक",
+              "raw_text": "1950 का दशक",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "सेंट जो सेफ कॉ लेज, ति रुचि रा पल्ली में भौ ति की काअध्ययन।",
+              "raw_text": "सेंट जो सेफ कॉ लेज, ति रुचि रा पल्ली में भौ ति की का अध्ययन।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1950 का दशक",
+              "raw_text": "1950 का दशक",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "एमआईटी , चेन्नई में वैमा नि कीइंजी नि यरिं ग काअध्ययन।",
+              "raw_text": "एमआईटी , चेन्नई में वैमा नि की इंजी नि यरिं ग का अध्ययन।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1960 का दशक",
+              "raw_text": "1960 का दशक",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रत केआरंभिक अंतरि क्ष प्रया स में शा मि ल; वि क्रम सा रा भाई द्वा रा मा र्गदर्शन।",
+              "raw_text": "भा रत के आरंभिरं भिक अंतरि क्ष प्रया स में शा मि ल; वि क्रम सा रा भा ई द्वा रा मा र्गदर्शन।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1979",
+              "raw_text": "1979",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "पहला SLV-III प्रक्षेपण प्रया स वि फल।",
+              "raw_text": "पहला SLV-III प्रक्षेपण प्रया स वि फल।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1980",
+              "raw_text": "1980",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "SLV-III ने रो हि णीउपग्रह को कक्षा में स्था पि त कि या ।",
+              "raw_text": "SLV-III ने रो हि णी उपग्रह को कक्षा में स्था पि त कि या ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1980 का दशक",
+              "raw_text": "1980 का दशक",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "डीआरडीओ में एकी कृत नि र्देशि त मि साइल वि का स का र्यक्रम का नेतृत्व।",
+              "raw_text": "डी आरडी ओ में एकी कृत नि र्देशि त मि सा इल वि का स का र्यक्रम का नेतृत्व।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1997",
+              "raw_text": "1997",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भारत रत्न से सम्मा नि त।",
+              "raw_text": "भा रत रत्न से सम्मा नि त।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1998",
+              "raw_text": "1998",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "पोखरण-II परमा णु परी क्षणों में केंद्री य भूमि का ।",
+              "raw_text": "पो खरण-II परमा णु परी क्षणों में केंद्री य भूमि का ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            {
+              "column": 0,
+              "text": "1999",
+              "raw_text": "1999",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "अग्नि कीउड़ा न प्रका शि त (अरुण ति वा री के सा थ)।",
+              "raw_text": "अग्नि की उड़ा न प्रका शि त (अरुण ति वा री के सा थ)।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            {
+              "column": 0,
+              "text": "2002",
+              "raw_text": "2002",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रत के ग्या रहवें रा ष्ट्रपति चुने गए।",
+              "raw_text": "भा रत के ग्या रहवें रा ष्ट्रपति चुने गए।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            {
+              "column": 0,
+              "text": "2007",
+              "raw_text": "2007",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "रा ष्ट्रपति का र्यका ल पूर्ण; शि क्षण कीओर लौ टे।",
+              "raw_text": "रा ष्ट्रपति का र्यका ल पूर्ण; शि क्षण की ओर लौ टे।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 13,
+          "cells": [
+            {
+              "column": 0,
+              "text": "2015",
+              "raw_text": "2015",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "27 जुलाई को शिलांग में वि द्या र्थि यों को व्या ख्या न देते हुए नि धन।",
+              "raw_text": "27 जुला ई को शि लां ग में वि द्या र्थि यों को व्या ख्या न देते हुए नि धन।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "table_005",
+      "page": 20,
+      "table_on_page": 1,
+      "bbox_pdf_points": [
+        51.43267990466388,
+        100.74860349013947,
+        544.1998207545449,
+        393.3666525737211
+      ],
+      "row_count": 10,
+      "column_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            {
+              "column": 0,
+              "text": "शब्द",
+              "raw_text": "शब्द",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "अर्थ",
+              "raw_text": "अर्थ",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            {
+              "column": 0,
+              "text": "इसरो (ISRO)",
+              "raw_text": "इसरो (ISRO)",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रती य अंतरि क्ष अनुसंधा न संगठन — भा रत की ना गरि क अंतरि क्ष एजेंसी ।",
+              "raw_text": "भा रती य अंतरि क्ष अनुसंधा न संगठन — भा रत की ना गरि क अंतरि क्ष एजेंसी ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            {
+              "column": 0,
+              "text": "डीआरडीओ (DRDO)",
+              "raw_text": "डी आरडी ओ (DRDO)",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "रक्षाअनुसंधा न एवं वि का स संगठन — भा रत की सैन्य अनुसंधा न संस्था ।",
+              "raw_text": "रक्षा अनुसंधा न एवं वि का स संगठन — भा रत की सैन्य अनुसंधा न संस्था ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            {
+              "column": 0,
+              "text": "SLV-III",
+              "raw_text": "SLV-III",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "उपग्रह प्रक्षेपण या न — भा रत का पहला स्वदेशी कक्षी य रॉ केट।",
+              "raw_text": "उपग्रह प्रक्षेपण या न — भा रत का पहला स्वदेशी कक्षी य रॉ केट।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            {
+              "column": 0,
+              "text": "IGMDP",
+              "raw_text": "IGMDP",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "एकी कृत नि र्देशि त मि साइल वि का स का र्यक्रम, डीआरडीओ में कला म के नेतृत्व में।",
+              "raw_text": "एकी कृत नि र्देशि त मि सा इल वि का स का र्यक्रम, डी आरडी ओ में कला म के नेतृत्व में।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "column": 0,
+              "text": "रोहिणी",
+              "raw_text": "रो हि णी",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "1980 में SLV-III द्वा रा कक्षा में स्था पि त उपग्रह।",
+              "raw_text": "1980 में SLV-III द्वा रा कक्षा में स्था पि त उपग्रह।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            {
+              "column": 0,
+              "text": "पोखरण-II",
+              "raw_text": "पो खरण-II",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रत के 1998 के परमा णु परी क्षण (ऑपरेशरे न शक्ति )।",
+              "raw_text": "भा रत के 1998 के परमा णु परी क्षण (ऑपरेशरे न शक्ति )।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            {
+              "column": 0,
+              "text": "एमआईटी (चेन्नई)",
+              "raw_text": "एमआईटी (चेन्नई)",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "मद्रा स इंस्टी ट्यूट ऑफ टेक्नो लॉ जी , जहाँ कला म ने वैमा नि की पढ़ी ।",
+              "raw_text": "मद्रा स इंस्टी ट्यूट ऑफ टेक्नो लॉ जी , जहाँ कला म ने वैमा नि की पढ़ी ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            {
+              "column": 0,
+              "text": "एचएएल (HAL)",
+              "raw_text": "एचएएल (HAL)",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "हिं दुस्ता न एयरो नॉ टि क्स लि मि टेड, कला म काएक आरंभिक का र्यस्थल।",
+              "raw_text": "हिं दुस्ता न एयरो नॉ टि क्स लि मि टेड, कला म का एक आरंभिरं भिक का र्यस्थल।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            {
+              "column": 0,
+              "text": "भारत रत्न",
+              "raw_text": "भा रत रत्न",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रत का सर्वो च्च ना गरि क सम्मा न, 1997 में कला म को प्रदा न।",
+              "raw_text": "भा रत का सर्वो च्च ना गरि क सम्मा न, 1997 में कला म को प्रदा न।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "table_id": "table_006",
+      "page": 22,
+      "table_on_page": 1,
+      "bbox_pdf_points": [
+        51.441163866029825,
+        100.74979139409095,
+        544.2015175468181,
+        481.7407412474677
+      ],
+      "row_count": 13,
+      "column_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rows": [
+        {
+          "row": 0,
+          "cells": [
+            {
+              "column": 0,
+              "text": "क्षेत्र",
+              "raw_text": "क्षेत्र",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "तथ्य",
+              "raw_text": "तथ्य",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "cells": [
+            {
+              "column": 0,
+              "text": "पूरा ना म",
+              "raw_text": "पूरा ना म",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम",
+              "raw_text": "अवुल पा कि र जैनुला ब्दी न अब्दुल कला म",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 2,
+          "cells": [
+            {
+              "column": 0,
+              "text": "जन्म",
+              "raw_text": "जन्म",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "15 अक्टूबर 1931, रा मेश्वरम, तमिलनाडु",
+              "raw_text": "15 अक्टूबर 1931, रा मेश्वरम, तमि लना डु",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "cells": [
+            {
+              "column": 0,
+              "text": "नि धन",
+              "raw_text": "नि धन",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "27 जुलाई 2015, शि लां ग, मेघालय (आयु 83)",
+              "raw_text": "27 जुला ई 2015, शि लां ग, मेघा लय (आयु 83)",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "cells": [
+            {
+              "column": 0,
+              "text": "उपना म",
+              "raw_text": "उपना म",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "\"भा रत के मि साइल मैन\"; \"जनता के रा ष्ट्रपति \"",
+              "raw_text": "\"भा रत के मि सा इल मैन\"; \"जनता के रा ष्ट्रपति \"",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "cells": [
+            {
+              "column": 0,
+              "text": "शि क्षा",
+              "raw_text": "शि क्षा",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भौ ति की (सेंट जो सेफ कॉ लेज); वैमा नि कीइंजी नि यरिं ग (एमआईटी , चेन्नई)",
+              "raw_text": "भौ ति की (सेंट जो सेफ कॉ लेज); वैमा नि की इंजी नि यरिं ग (एमआईटी , चेन्नई)",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 6,
+          "cells": [
+            {
+              "column": 0,
+              "text": "प्रमुख संस्थाएँ",
+              "raw_text": "प्रमुख संस्था एँ",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "इसरो , डीआरडीओ",
+              "raw_text": "इसरो , डी आरडी ओ",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 7,
+          "cells": [
+            {
+              "column": 0,
+              "text": "प्रमुख परि यो जना (इसरो )",
+              "raw_text": "प्रमुख परि यो जना (इसरो )",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "SLV-III → रो हि णीउपग्रह, 1980",
+              "raw_text": "SLV-III → रो हि णी उपग्रह, 1980",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 8,
+          "cells": [
+            {
+              "column": 0,
+              "text": "प्रमुख का र्यक्रम (डीआरडीओ)",
+              "raw_text": "प्रमुख का र्यक्रम (डी आरडी ओ)",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "एकी कृत नि र्देशि त मि साइल वि का स का र्यक्रम",
+              "raw_text": "एकी कृत नि र्देशि त मि सा इल वि का स का र्यक्रम",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 9,
+          "cells": [
+            {
+              "column": 0,
+              "text": "रा ष्ट्री य भूमि का",
+              "raw_text": "रा ष्ट्री य भूमि का",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भा रत के 11वें रा ष्ट्रपति , 2002–2007",
+              "raw_text": "भा रत के 11वें रा ष्ट्रपति , 2002–2007",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 10,
+          "cells": [
+            {
+              "column": 0,
+              "text": "आत्मकथा",
+              "raw_text": "आत्मकथा",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "अग्नि कीउड़ा न (1999), अरुण तिवारी के सा थ",
+              "raw_text": "अग्नि की उड़ा न (1999), अरुण ति वा री के सा थ",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 11,
+          "cells": [
+            {
+              "column": 0,
+              "text": "सर्वो च्च सम्मा न",
+              "raw_text": "सर्वो च्च सम्मा न",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "भारत रत्न (1997)",
+              "raw_text": "भा रत रत्न (1997)",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        },
+        {
+          "row": 12,
+          "cells": [
+            {
+              "column": 0,
+              "text": "चि रस्था यी संदेश",
+              "raw_text": "चि रस्था यी संदेश",
+              "source": "pdfium",
+              "flags": []
+            },
+            {
+              "column": 1,
+              "text": "सपने देखो , डटे रहो , वि फलता से सी खो , और रा ष्ट्र की सेवा करो ।",
+              "raw_text": "सपने देखो , डटे रहो , वि फलता से सी खो , और रा ष्ट्र की सेवा करो ।",
+              "source": "pdfium",
+              "flags": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

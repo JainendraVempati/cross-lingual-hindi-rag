@@ -1,0 +1,22 @@
+{
+  "source_document": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+  "total_chunks": 74,
+  "prose_chunks_count": 25,
+  "table_row_chunks_count": 49,
+  "parameters": {
+    "target_tokens": 300,
+    "max_tokens": 350,
+    "overlap_tokens": 50,
+    "tokenizer_name": "approximate_regex"
+  },
+  "token_statistics": {
+    "min_tokens": 20,
+    "max_tokens": 347,
+    "average_tokens": 98.8,
+    "oversized_chunks_gt_350": 0
+  },
+  "output_files": {
+    "chunks_file": "artifacts\\chunks.jsonl",
+    "manifest_file": "artifacts\\chunk_manifest.json"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "reference_file": "eval\\reference_pages\\page_5.txt",
+  "normalization": "Unicode NFC; whitespace collapsed; NUL characters removed",
+  "metrics": {
+    "PDFium": {
+      "reference_characters": 1120,
+      "extracted_characters": 1228,
+      "character_errors": 108,
+      "cer": 0.09642857142857143,
+      "reference_words": 220,
+      "extracted_words": 310,
+      "word_errors": 174,
+      "wer": 0.7909090909090909,
+      "exact_match": false
+    },
+    "OCR": {
+      "reference_characters": 1120,
+      "extracted_characters": 1110,
+      "character_errors": 24,
+      "cer": 0.02142857142857143,
+      "reference_words": 220,
+      "extracted_words": 220,
+      "word_errors": 9,
+      "wer": 0.04090909090909091,
+      "exact_match": false
+    }
+  }
+}

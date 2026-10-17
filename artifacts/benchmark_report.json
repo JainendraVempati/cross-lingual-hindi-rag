@@ -1,0 +1,425 @@
+{
+  "category_1_full_text_fidelity": {
+    "page_5": {
+      "reference_chars": 1120,
+      "candidate_chars": 1162,
+      "char_errors": 55,
+      "cer": 0.0491,
+      "reference_words": 220,
+      "candidate_words": 257,
+      "word_errors": 93,
+      "wer": 0.4227,
+      "exact_match": false
+    },
+    "page_17": {
+      "reference_chars": 773,
+      "candidate_chars": 782,
+      "char_errors": 18,
+      "cer": 0.0233,
+      "reference_words": 126,
+      "candidate_words": 131,
+      "word_errors": 20,
+      "wer": 0.1587,
+      "exact_match": false
+    },
+    "page_22": {
+      "reference_chars": 772,
+      "candidate_chars": 768,
+      "char_errors": 28,
+      "cer": 0.0363,
+      "reference_words": 120,
+      "candidate_words": 116,
+      "word_errors": 45,
+      "wer": 0.375,
+      "exact_match": false
+    }
+  },
+  "category_2_critical_facts": {
+    "total": 53,
+    "exact_passed": 48,
+    "compact_passed": 52,
+    "details": [
+      {
+        "page": 5,
+        "label": "Heading",
+        "expected": "प्रारंभिक शिक्षा एवं प्रेरणाएँ",
+        "exact_pass": false,
+        "compact_pass": true
+      },
+      {
+        "page": 5,
+        "label": "School name",
+        "expected": "श्वार्ट्ज हायर सेकेंडरी स्कूल",
+        "exact_pass": false,
+        "compact_pass": false
+      },
+      {
+        "page": 5,
+        "label": "Key phrase",
+        "expected": "लगन जन्मजात प्रतिभा से अधिक महत्वपूर्ण है",
+        "exact_pass": false,
+        "compact_pass": true
+      },
+      {
+        "page": 5,
+        "label": "Teacher name",
+        "expected": "आयडुरई सोलोमन",
+        "exact_pass": false,
+        "compact_pass": true
+      },
+      {
+        "page": 5,
+        "label": "Teaching theme",
+        "expected": "शिक्षकों और गुरुओं",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile Prithvi",
+        "expected": "पृथ्वी",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile Agni",
+        "expected": "अग्नि",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile Trishul",
+        "expected": "त्रिशूल",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile Akash",
+        "expected": "आकाश",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile Nag",
+        "expected": "नाग",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile role surface-to-surface",
+        "expected": "सतह-से-सतह",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 9,
+        "label": "Missile role anti-tank",
+        "expected": "टैंक-रोधी",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 12,
+        "label": "Father mentor",
+        "expected": "जैनुलाब्दीन",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 12,
+        "label": "School teacher",
+        "expected": "आयडुरई सोलोमन",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 12,
+        "label": "Space pioneer",
+        "expected": "विक्रम साराभाई",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 12,
+        "label": "ISRO chief",
+        "expected": "सतीश धवन",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 12,
+        "label": "Senior scientist",
+        "expected": "ब्रह्म प्रकाश",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Padma Bhushan",
+        "expected": "पद्म भूषण",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Padma Bhushan year",
+        "expected": "1981",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Padma Vibhushan",
+        "expected": "पद्म विभूषण",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Padma Vibhushan year",
+        "expected": "1990",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Bharat Ratna",
+        "expected": "भारत रत्न",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Bharat Ratna year",
+        "expected": "1997",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 16,
+        "label": "Indira Gandhi Award",
+        "expected": "इंदिरा गांधी",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Birth year",
+        "expected": "1931",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "College year",
+        "expected": "1950",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Early space effort",
+        "expected": "1960",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Missile launch fail year",
+        "expected": "1979",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Rohini satellite year",
+        "expected": "1980",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Bharat Ratna year",
+        "expected": "1997",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Nuclear tests year",
+        "expected": "1998",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Autobiography year",
+        "expected": "1999",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Presidency start year",
+        "expected": "2002",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Presidency end year",
+        "expected": "2007",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Death year",
+        "expected": "2015",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 17,
+        "label": "Missile identifier",
+        "expected": "SLV-III",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "ISRO abbreviation",
+        "expected": "इसरो",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "DRDO abbreviation",
+        "expected": "डीआरडीओ",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "SLV-III identifier",
+        "expected": "SLV-III",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "IGMDP program",
+        "expected": "IGMDP",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "Rohini satellite",
+        "expected": "रोहिणी",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "Pokhran tests",
+        "expected": "पोखरण-II",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "MIT Chennai",
+        "expected": "एमआईटी",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 20,
+        "label": "HAL acronym",
+        "expected": "एचएएल",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Full name",
+        "expected": "अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम",
+        "exact_pass": false,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Birth date",
+        "expected": "15 अक्टूबर 1931",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Death date",
+        "expected": "27 जुलाई 2015",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Missile identifier",
+        "expected": "SLV-III",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Satellite year",
+        "expected": "1980",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Presidency start year",
+        "expected": "2002",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Presidency end year",
+        "expected": "2007",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Autobiography year",
+        "expected": "1999",
+        "exact_pass": true,
+        "compact_pass": true
+      },
+      {
+        "page": 22,
+        "label": "Bharat Ratna year",
+        "expected": "1997",
+        "exact_pass": true,
+        "compact_pass": true
+      }
+    ]
+  },
+  "category_3_table_structure": {
+    "tables_evaluated": 6,
+    "tables_passed": 6,
+    "details": []
+  },
+  "category_4_provenance": {
+    "total_pages_ingested": 22,
+    "tables_extracted": 6,
+    "flagged_cells_count": 0
+  }
+}
