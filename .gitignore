@@ -1,14 +1,25 @@
-﻿__pycache__/
+﻿
+__pycache__/
 *.py[cod]
 .venv/
 venv/
+RAG/
+.ipynb_checkpoints/
+
+# Environment secrets
 .env
 .env.*
 !.env.example
-.ipynb_checkpoints/
 
+# Intermediate archives
 data/processed/archive_unused/
 data/processed/archive_before_general_rerun/
 
-# Local Python environment
-RAG/
+# Local vector databases
+data/processed/chroma_db_semantic/
+data/processed/chroma_db/
+
+# Large model files
+*.pt
+*.bin
+*.safetensors
