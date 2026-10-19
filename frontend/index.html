@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <title>Hindi RAG | Document Assistant</title>
+
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">
+      <span class="brand-icon">R</span>
+      <span>Hindi<span class="brand-accent">RAG</span></span>
+    </a>
+
+    <div class="status">
+      <span class="status-dot"></span>
+      Document assistant
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">
+        <span class="eyebrow-line"></span>
+        MEGAMINDZ INTERNSHIP ASSIGNMENT
+      </div>
+
+      <h1>Ask your document<span class="accent"> anything.</span></h1>
+
+      <p class="subtitle">
+        Ask questions in Hindi or English. Get evidence-based answers
+        from your document, with page references and source chunks.
+      </p>
+
+      <div class="feature-row">
+        <span>◈ Semantic retrieval</span>
+        <span>◈ Hindi + English</span>
+        <span>◈ Source citations</span>
+      </div>
+    </section>
+
+    <section class="question-card">
+      <form id="question-form">
+        <label for="question">YOUR QUESTION</label>
+
+        <textarea
+          id="question"
+          name="question"
+          placeholder="उदाहरण: कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?&#10;Or ask in English..."
+          rows="3"
+          maxlength="2000"
+          required
+        ></textarea>
+
+        <div class="input-footer">
+          <span id="char-count">0 / 2000</span>
+
+          <button id="submit-button" type="submit">
+            <span id="button-text">Ask question</span>
+            <span aria-hidden="true"> ↗</span>
+          </button>
+        </div>
+      </form>
+
+      <div class="examples">
+        <span class="examples-label">TRY ASKING</span>
+
+        <button class="example-chip" type="button"
+          data-question="कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?">
+          Bharat Ratna
+        </button>
+
+        <button class="example-chip" type="button"
+          data-question="Which institution did Kalam attend to study aeronautical engineering?">
+          Aeronautical engineering
+        </button>
+
+        <button class="example-chip" type="button"
+          data-question="How and where did Kalam die in 2015?">
+          Final years
+        </button>
+      </div>
+    </section>
+
+    <div id="error-box" class="error-box" role="alert" hidden></div>
+
+    <section id="results" hidden aria-live="polite">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">RESPONSE</span>
+          <h2>Your answer</h2>
+        </div>
+        <span id="elapsed-time" class="elapsed"></span>
+      </div>
+
+      <article class="answer-card">
+        <div class="answer-label">
+          <span class="answer-symbol">✦</span>
+          AI-GENERATED ANSWER
+        </div>
+        <div id="answer-text" class="answer-text"></div>
+      </article>
+
+      <div class="section-heading sources-heading">
+        <div>
+          <span class="section-kicker">RETRIEVAL EVIDENCE</span>
+          <h2>Sources</h2>
+        </div>
+        <span id="source-count" class="source-count"></span>
+      </div>
+
+      <div id="sources-list" class="sources-list"></div>
+
+      <p class="disclaimer">
+        Answers are generated from retrieved evidence. Check the cited
+        document passages when accuracy is important.
+      </p>
+    </section>
+
+    <footer>
+      <span>Cross-Lingual Hindi RAG</span>
+      <span>Semantic retrieval · Grounded generation</span>
+    </footer>
+  </main>
+</body>
+</html>

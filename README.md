@@ -524,6 +524,112 @@ The main project files include:
 
 Additional extraction scripts, table-processing files, and audit outputs document how the source text was prepared.
 
+
+---
+
+## 10. Web Application
+
+The project includes a web interface built with HTML, CSS, and JavaScript, backed by a FastAPI application. Users can ask questions in Hindi or English and view the generated answer alongside retrieved source passages.
+
+### Features
+
+- Hindi and English question input.
+- Cross-lingual retrieval from the Hindi document using BGE-M3 embeddings.
+- ChromaDB-based semantic search.
+- Gemini-powered answer generation grounded in retrieved evidence.
+- Source details including page number, section, chunk ID, and similarity score.
+- Response time and retrieval evidence displayed in the interface.
+
+### Web application architecture
+
+```text
+Browser
+   |
+   v
+HTML / CSS / JavaScript
+   |
+   v
+FastAPI (api.py)
+   |
+   v
+rag.py: retrieve top 5 chunks
+   |
+   v
+ChromaDB + BGE-M3
+   |
+   v
+Retrieved Hindi evidence
+   |
+   v
+Google Gemini API
+   |
+   v
+Answer + source metadata
+```
+
+### Run the web application
+
+Run these commands from the project root in Windows PowerShell.
+
+**1. Activate the virtual environment**
+
+```powershell
+.\RAG\Scripts\Activate.ps1
+```
+
+**2. Install dependencies**
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+**3. Configure environment variables**
+
+Create a `.env` file in the project root if it does not already exist:
+
+```text
+GEMINI_API_KEY=your_api_key_here
+GEMINI_MODEL=gemini-2.5-flash
+```
+
+Replace the placeholder with your own Gemini API key. Keep `.env` private and never commit it to GitHub. The `.env.example` file should contain placeholders only.
+
+**4. Start the FastAPI server**
+
+```powershell
+python -m uvicorn api:app --reload
+```
+
+**5. Open the application**
+
+Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+
+The interactive API documentation is available at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+
+Keep the terminal running while using the application. Press `Ctrl+C` to stop the server.
+
+### First-time setup notes
+
+- Install the dependencies before starting the application.
+- Ensure the required processed document and semantic chunk files exist.
+- Ensure the local ChromaDB index has been built using the project's indexing workflow.
+- The first run may take longer because the embedding model may need to load or download.
+- Gemini answer generation requires a valid API key, internet connectivity, and available API quota.
+- The application retrieves up to five chunks by default. Similarity scores indicate embedding-based relevance, not guaranteed factual correctness.
+
+### Troubleshooting
+
+| Problem | What to check |
+|---|---|
+| `GEMINI_API_KEY` missing | Check the root `.env` file and variable name |
+| ChromaDB collection or index missing | Build the local index using the indexing workflow |
+| Frontend styles or JavaScript do not load | Open the application through `http://127.0.0.1:8000`, not by opening `index.html` directly |
+| Port 8000 is already in use | Stop the other server or launch Uvicorn on another available port |
+| Gemini request fails | Check the API key, internet connection, quota, and backend terminal |
+
+The CLI and web interface share the retrieval pipeline, but the web interface exposes it through HTTP endpoints. The browser sends questions to `/api/ask`, while `/api/health` provides a basic service health check.
+
+
 ## Conclusion
 
 This project demonstrates an end-to-end RAG workflow for a Hindi document: conservative text preparation, semantic chunking, multilingual embeddings, persistent vector search, LLM-based answer generation, source metadata, and retrieval evaluation.
