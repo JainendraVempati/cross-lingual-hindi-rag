@@ -1,5 +1,0 @@
-﻿page,table_index,row_index,col_index,line_before,line_after,left_fragment,right_fragment,proposed_decision,reason
-12,1,5,1,0,1,वरिष्ठ वैज्ञानिक और प्रक्षेपण-यान वर्षों में स्थि,र मार्गदर्शक।,JOIN_WITH_SPACE,conservative default; verify against the table image
-17,1,10,1,0,1,अग्नि,की उड़ान प्रकाशित (अरुण तिवारी के साथ)।,JOIN_WITH_SPACE,conservative default; verify against the table image
-20,1,6,1,0,1,भारत के 1998 के परमाणु परीक्षण (ऑपरेशन शक्ति,)।,JOIN_NO_SPACE,next non-empty fragment contains only punctuation/whitespace
-22,1,10,1,0,1,अग्नि,"की उड़ान (1999), अरुण तिवारी के साथ",JOIN_WITH_SPACE,conservative default; verify against the table image
