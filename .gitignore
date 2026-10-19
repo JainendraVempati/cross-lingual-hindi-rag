@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+data/processed/archive_unused/
+data/processed/archive_before_general_rerun/
+
+# Local Python environment
+RAG/
