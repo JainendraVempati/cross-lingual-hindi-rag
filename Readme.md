@@ -745,3 +745,41 @@ Current stopping point: extraction, cleaning, table handling,
 combination, and structural validation are complete. Chunking,
 embeddings, vector indexing, and retrieval evaluation are separate next
 stages.
+
+
+
+
+
+
+# Chunking
+
+The chunking stage reads `data/processed/final_document.json`, which contains validated prose and structured tables.
+
+Two chunking strategies are used:
+
+- **Prose chunking:** Splits text at meaningful paragraph and sentence boundaries, with a fallback for unusually long sentences.
+- **Table chunking:** Preserves table headers and groups data rows so each chunk retains its column context.
+
+Each chunk stores metadata such as:
+
+- `chunk_id`: Stable ID generated using a SHA-256 hash.
+- `content`: The text used for retrieval.
+- `source_page`: Original PDF page number.
+- `content_type`: `prose` or `table`.
+- `chunk_index`: Chunk number within its source record.
+- Additional section or table metadata when available.
+
+Chunk sizes are starting parameters, not assumed optimal values. They can be evaluated and adjusted during retrieval testing.
+
+**Current validation results:**
+- Source records: 26 (20 prose and 6 tables).
+- Total chunks: 32 (21 prose and 11 table chunks).
+- Empty chunks: 0.
+- Duplicate chunk IDs: 0.
+- Missing source pages: 0.
+- Table data rows represented in chunk metadata: 49 of 49.
+- All 6 source table pages are covered.
+
+These checks confirm structural coverage; retrieval quality and exact text preservation require separate evaluation.
+
+**Next stages:** embeddings, vector indexing, retrieval evaluation, and answer generation with source citations.
